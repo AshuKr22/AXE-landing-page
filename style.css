@@ -431,7 +431,7 @@ section.middle
         }
   
 }
- @media (max-width:394px) { 
+ @media (max-width: 600px) { 
     
     .top{
         padding: 40px;
