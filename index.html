@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Axe Body Spray</title>
+</head>
+<body>
+    <!-- TO DO : USE PHOTO EDITOR TO CHANGE COLOR OF BLUE BOTTLE TO PURPLE AND Red -->
+    <section class="top bg-blue">
+        
+        <header class="nav">
+            <h2 class="logo"><a href="">AXE</a></h2>
+            <div class="toggleMenu" onclick="toggleMenu()"></div>
+                <ul class="navbar">
+                    
+                <li><a href="">Products</a></li>
+                <li><a href="">New</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2 class="heading-top">THE NEW <br> G.O.A.T.</h2>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, asperiores perspiciatis hic deserunt a quisquam cumque molestias. At quaerat ullam magnam debitis, commodi error, maiores quos minima perspiciatis saepe maxime laudantium eaque alias eos. Maxime numquam eveniet odio dolor quod veniam non tempore aliquid. Nulla!</span> 
+                   </p>
+
+            </div>
+            <div class="imgBox">
+                <img class = "deoBottle"src="assets\Blue.png" alt="">
+                <div class="buttonBox">
+                    <button class="shop-btn btn-default">
+                        SHOP OUR NEW COLLECTION
+                    </button>
+                </div>
+                
+            </div>
+            <ul class="thumb">
+            
+                <li onclick="imgSlider('assets/Red.png'); changeBG('bg-red');" >
+                <img src="assets/Red.png" alt="" id="goldcan"></li>
+            
+            <li onclick="imgSlider('assets/Purple.png');changeBG('bg-purple');">
+            <img src="assets/Purple.png" alt=""></li>
+            
+            <li onclick="imgSlider('assets/Blue.png'); changeBG('bg-blue');">
+            <img class = "can3"src="assets\Blue.png" alt=""></li>
+            
+        </ul>
+            
+
+        </div>
+        <!-- 
+        <p class="para-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, eius culpa. Quod, odio unde ut voluptatem eaque enim adipisci, qui porro optio corporis dignissimos hic. Numquam, dolorum dolorem porro asperiores repellat soluta pariatur mollitia nisi expedita tempore enim quisquam quo molestiae id at repellendus excepturi.</p>
+        <img class ="bottle-img-gold" src="assets\Gold.png" alt="">
+         -->
+
+    </section>
+
+ <!-- ------- THE MIDDLE SECTION------------------ -->
+<section class=" middle">
+    <h2 class="heading-scent">
+        TRENDING SCENTS
+    </h2>
+    <div class ="scent-box">
+        <div class ="scent-img">
+            <img src="assets\ScentBlue1.png" alt="">
+            <button class="btn-default btn-scents">BUY NOW</button>
+        </div>
+        <div class="scent-img">
+            <img src="assets\ScentBlue2.png" alt="">
+            <button class="btn-default btn-scents">BUY NOW</button>
+      
+        </div>
+        <div class="scent-img">
+            <img  src="assets\ScentGreen1.png" alt="">
+      <button class="btn-default btn-scents">BUY NOW</button>
+        </div>
+        <div class="scent-img">
+            <img  src="assets\ScentGreen2.png" alt="">
+      <button class="btn-default btn-scents">BUY NOW</button>
+        </div>
+        <div class="scent-img">
+            <img   src="assets\ScentGreen3.png" alt="">
+      <button class="btn-default btn-scents">BUY NOW</button>
+        </div>
+        <div class="scent-img">
+            <img  src="assets\ScentPink.png" alt="">
+            <button class="btn-default btn-scents">BUY NOW</button>
+        </div> 
+
+    </div>
+</section>
+<!-- 
+#### EDIT
+I built this slider when I first started to learn JS, you can rebuild it with more readable, simple and less code, I'm too lazy to update it, sorry :) 
+-->
+
+<!-- 
+	use the left and right arrow keys on your keyboard or just swipe left and right on your smart phone to interact with the slider
+-->
+
+<section id="testim" class="testim">
+    <!--         <div class="testim-cover"> -->
+                <div class="wrap">
+    
+                    <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                    <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                    <ul id="testim-dots" class="dots">
+                        <li class="dot active"></li><!--
+                        --><li class="dot"></li><!--
+                        --><li class="dot"></li><!--
+                        --><li class="dot"></li><!--
+                        --><li class="dot"></li>
+                    </ul>
+                    <h2 class="heading-scent">OUR REVIEWS</h2>
+                    <div id="testim-content" class="cont">
+                        
+                        <div class="active">
+                            <h2>Lorem P. Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        </div>
+    
+                        <div>
+                            <h2>Mr. Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        </div>
+    
+                        <div>
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        </div>
+    
+                        <div>
+                            <h2>Lorem De Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        </div>
+    
+                        <div>
+                            <h2>Ms. Lorem R. Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    <!--         </div> -->
+        </section>
+        <footer>
+            <div class="footer">
+            <div class="row">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+            
+            <div class="row">
+            <ul>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Career</a></li>
+            </ul>
+            </div>
+            
+            <div class="row heading-top">
+            AXE
+            </div>
+            </div>
+            </footer>
+    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+    
+    
+<script src="main.js"></script>
+</body>
+</html>
